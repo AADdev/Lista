@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+	<title>Lista</title>
+  <link rel="StyleSheet" href="css/estilo.css" type="text/css">
+
+
+</head>
+<body>
+    <div id="contenedor">
+      <div id=loginf>
+        <form method="post" action="login.php">
+        <p>
+         <input type="text" name="usuario" value="" placeholder="Usuario" class="nombre">
+        <br/>
+          <input type="password" name="pass" value="" placeholder="Password" class="contraseña">
+        <br/>
+  <div ="loginb">
+  <input class="boton azul" data-toggle="button" aria-pressed="false" autocomplete="off" type="submit" name="commit" value="Login">
+   </div><!--loginb -->
+    </p>
+  </form>
+       </div><!--loginf --> 
+    </div><!--contenedor -->
+    
+    <!--_______________registro______________ -->
+    
+    <div id="contenedorr"  >
+      <div id="registro">
+        <form method="post" action="php/registro.php">
+        
+         <input type="text"  placeholder="Nombre" name="name">
+        	<br>
+          <input type="text"  placeholder="Usuario" name="user">
+        	<br>
+          <input type="password"  placeholder="Contraseña" name="pass">
+					<br>
+		<input type="password"  placeholder="repetir contraseña" name="pass2">
+  <div ="registrob">
+  <input class="boton azul" data-toggle="button" aria-pressed="false" autocomplete="off" type="submit" name="commit" value="Register">
+   </div><!--registrob -->
+    
+  </form>
+       </div><!--registro --> 
+    </div><!--contenedorr -->
+    
+</body>
+</html>

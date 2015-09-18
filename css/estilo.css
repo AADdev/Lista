@@ -1,0 +1,25 @@
+#contenedor{
+    border: solid;
+    border-radius:5px;
+    width:400px;
+    height:400px;
+}
+#loginf{
+    margin-top: 200px;
+    margin:left;
+    margin-left:100px;
+}
+
+
+#contenedorr{
+    border: solid;
+    border-radius:5px;
+    width:400px;
+    height:400px;
+}
+#registro{
+    margin-top: 200px;
+    margin:left;
+    margin-left:100px;
+}
+

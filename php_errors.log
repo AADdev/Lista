@@ -1,0 +1,4 @@
+[18-Sep-2015 08:03:55 UTC] PHP Warning:  mysql_connect(): Access denied for user 'deivako'@'localhost' (using password: NO) in /home/ubuntu/workspace/php/registro.php on line 7
+[18-Sep-2015 08:03:55 UTC] PHP Stack trace:
+[18-Sep-2015 08:03:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/registro.php:0
+[18-Sep-2015 08:03:55 UTC] PHP   2. mysql_connect() /home/ubuntu/workspace/php/registro.php:7
