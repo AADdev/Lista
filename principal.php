@@ -2,15 +2,19 @@
 	<head>
 		
 		<?php session_start(); ?>
-		<title>LISTAS</title>
+		<title>Lista</title>
 		<meta charset="utf-8"/>
 		<script src="lib/jquery-1.11.3.min.js"></script>
 		<script src="lib/jquery.validate.min.js"></script>
 
 		<link rel="StyleSheet" href="css/stilo.css" type="text/css">
+		<link rel="icon" type="image/png" href="imagenes/List2.png" />
 		<script type="text/javascript">
+		
+		
 
 $(document).ready(function() {
+	
 	 $("#linea1").click(function(){
         $("#crearlista").slideToggle("linear");
          $("#sub2").fadeOut('slow/400/fast');
@@ -18,7 +22,7 @@ $(document).ready(function() {
          	
     });
 	 $("#linea2").click(function(){
-        $("#sub2").slideToggle("linear");
+        $("#compartirlista").slideToggle("linear");
          $("#sub1").fadeOut('slow/400/fast');
           $("#sub3").fadeOut('slow/400/fast');
     });
@@ -26,29 +30,6 @@ $(document).ready(function() {
         $("#sub3").slideToggle("linear");
          $("#sub1").fadeOut('slow/400/fast');
           $("#sub2").fadeOut('slow/400/fast');
-    });
-
-	  $("#clientes").click(function(){
-	  	 $("#instratamiento").fadeOut(0);
-	  	 $("#insdentista").fadeOut(0);
-	   $("#inscliente").fadeIn("linear");
-	    $("#sub1").fadeOut("linear");
-
-    });
-   
-
-  $("#tratamientos").click(function(){
-  	$("#inscliente").fadeOut(0);
- 	$("#insdentista").fadeOut(0);
-	   $("#instratamiento").fadeIn("linear");
-	    $("#sub1").fadeOut("linear");   
-    });
-  $("#dentista").click(function(){
-  	$("#inscliente").fadeOut(0);
-  	$("#instratamiento").fadeOut(0);
-	   $("#insdentista").fadeIn("linear");
-	    $("#sub1").fadeOut("linear");  
-	     $("#sub2").fadeOut("linear");    
     });
 
 });	
@@ -60,21 +41,21 @@ $(document).ready(function() {
 		<div id="banner">
 			<div id="logo"></div>
 			<div id="bannerletras">
-				<h1>Listas</h1>
+				<h1></h1></h1>
 			</div>
 		</div><!--banner-->
 
 		<div id="nav">
 		
 	<ul>	
-		<li id="linea1">crear</li>
+		<li id="linea1">CREAR</li>
 	</ul>	
 	<ul>	
-		<li id="linea2">compartir</li>
+		<li id="linea2">COMPARTIR</li>
 			
 	</ul>
 	<ul>	
-		<li id="linea3">eliminar</li>	
+		<li  id="linea3">ARCHIVADAS</li>	
 		</ul>
 			
 	</div><!--nav-->
@@ -92,9 +73,17 @@ $(document).ready(function() {
 		<br/>
 		<input type="text" name="task5" placeholder="task5"/>
 		<br/>
-		<input type="submit" value="Submit"/>
+		<input type="submit"  class='btn' value="Submit"/>
 	</form>
 	
+		<form hidden id="compartirlista" method="post" action="php/compartir.php">	
+		<h2>Compartir</h2>
+		<input type="text" name="nombrelista" placeholder="Nombre de la Lista"/>
+		<br/>
+		<input type="text" name="usuarioc" placeholder="¿Con quien la quieres compartir?"/>
+		<br/>
+		<input type="submit" class='btn' value="Submit"/>
+	</form>
 	<?php
 	$user = $_SESSION['Usuario'];
 	$iduser = $_SESSION['id_usuario'];
@@ -114,11 +103,11 @@ $(document).ready(function() {
 	   
 		while ($row = mysql_fetch_array($result)) {
 				echo "<div class='CSSTableGenerator'>";
-			    echo "<table border='1' class='Tlistas'>";
+			    echo "<table border='0' class='Tlistas'>";
 			    echo "<tr>";
     			echo "<form action='php/borrarl.php' method='post'>";
     			echo "<input type='text' value='$row[0]' name='idl' hidden>";
-			    echo "<th>".$row[1]."</th><th><input type='submit' value='borrar'></th>";
+			    echo "<th>".$row[1]."</th><th><input type='submit' value='borrar' class='btn'></th>";
 			    echo "</form>";
 			    echo "</tr>";
 			    $result2 = mysql_query("SELECT * FROM tarea WHERE id_lista= '$row[0]' and archivada = 0", $conexion);
@@ -127,7 +116,7 @@ $(document).ready(function() {
     			    echo "<tr>";
     			    echo "<form action='php/borrart.php' method='post'>";
     			    echo "<input type='text' value='$row2[0]' name='idt' hidden>";
-    			    echo "<td>Tarea Nº".$X.": ".$row2[1]."</td><td><input type='submit' value='archivar'></td>";
+    			    echo "<td>Tarea Nº".$X.": ".$row2[1]."</td><td><input class='btn' type='submit' value='archivar'></td>";
     			    echo "</form>";
     			    echo "</tr>";
     			    $X++;

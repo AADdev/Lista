@@ -3,13 +3,32 @@
 <head>
 <meta charset="utf-8"/>
 	<title>Lista</title>
-  <link rel="StyleSheet" href="css/estilo.css" type="text/css">
+    <link rel="StyleSheet" href="css/estilo.css" type="text/css">
+		<link rel="icon" type="image/png" href="imagenes/List2.png" />
+	<script src="lib/jquery-1.11.3.min.js"></script>
 
+	<script type="text/javascript">
+	
+$(document).ready(function() {
+	
+	 $("#registrar").click(function(){
+        $("#contenedorr").fadeIn(0);
+           $("#contenedor").fadeOut(0);
+        });
+        	 $("#logear").click(function(){
+        $("#contenedor").fadeIn(0);
+           $("#contenedorr").fadeOut(0);
+        });
 
+});	
+	</script>
 </head>
 <body>
+        
     <div id="contenedor">
-      <div id=loginf>
+        <div id=logolek></div>
+      <div id="loginf">
+          <h1>Login</h1>
         <form method="post" action="php/login.php">
         <p>
          <input type="text" name="usuario" value="" placeholder="Usuario" class="nombre">
@@ -17,7 +36,8 @@
           <input type="password" name="pass" value="" placeholder="Password" class="contraseña">
         <br/>
   <div ="loginb">
-  <input class="boton azul" data-toggle="button" aria-pressed="false" autocomplete="off" type="submit" name="login" value="Login">
+  <input class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" type="submit" name="login" value="Login">
+  <input class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" type="button" id="registrar" value="registrar">
    </div><!--loginb -->
     </p>
   </form>
@@ -26,8 +46,10 @@
     
     <!--_______________registro______________ -->
     
-    <div id="contenedorr"  >
+    <div  id="contenedorr" hidden>
+        <div id=logolek></div>
       <div id="registro">
+          <h1>Sign Up</h1>
         <form method="post" action="php/registro.php">
         
          <input type="text"  placeholder="Nombre" name="name">
@@ -38,7 +60,8 @@
 					<br>
 		<input type="password"  placeholder="repetir contraseña" name="pass2">
   <div ="registrob">
-  <input class="boton azul" data-toggle="button" aria-pressed="false" autocomplete="off" type="submit" name="commit" value="Register">
+  <input class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" type="submit" name="commit" value="Register">
+  <input class="btn" data-toggle="button" aria-pressed="false" autocomplete="off" type="button" id="logear" value="login">
    </div><!--registrob -->
     
   </form>

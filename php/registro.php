@@ -11,6 +11,8 @@ if ($pass == $pass2) {
 	mysql_query("INSERT INTO Usuarios (Usuario, Nombre, pass) VALUES ('$user','$name','$pass')"); 
 echo'<a href="https://listaphp-deivakov.c9.io"><button type="button">Volver atras</button></a>';
 echo "bienvenido ".$name;
+	header("Location: ../index.html");
+
 }
 else{
     

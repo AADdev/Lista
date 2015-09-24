@@ -1,18 +1,23 @@
 #banner{
-		background-color: black;
+		background-color:#00C39F ;
 		height: 100px;
-		width: 1324px;
-		margin: auto;
+		width: 102%;
+		margin-left:-20px;
+		margin-top:-12px;
+	/*	margin: auto;*/
 	}
 	#logo{
-		background-image: url("../imagenes/Gotenks.png");
-		width: 80px;
+		background-image: url("../imagenes/List.png");
+		width: 120px;
 		height: 80px;
-		background-size: 80px 80px;
+		background-size: 120px 80px;
 		float: left;
 		margin-top: 10px;
 		margin-left: 10px;
+
+		margin-left:600px;
 	}
+
 	#bannerletras{
 		float: left;
 		margin-top: 10px;
@@ -22,11 +27,11 @@
 	#nav {
 		
 		height: 80px;
-		width: 1324px;
+		width: 102%;
 		margin: auto;
 		position:absolute;
   		z-index:1;
-  		margin-left: 5px;
+  		margin-left: -8px;
 
 	}
 	
@@ -39,6 +44,9 @@
 		margin-top: 35px;
 		
 	}
+	body{
+		background-color:#E6E6E6;
+	}
 
 	img {
 		float: left;
@@ -48,18 +56,20 @@
 
 	ol{
        display:none; 
-       width: 250px;
+       width: 100%;
        margin-top: 0px;
        margin-left: 0px;
         }
             
     li{
-      background-color: #9F81F7;
+      background-color: #00B6C3;
       list-style: none;
-      width: 441px; 
+      width: 100%; 
       height: 35px;
       margin-left: -40px; 
       text-align: center;
+      color:white;
+      
 
      }
 	 ul{
@@ -71,10 +81,10 @@
 	 }
 
  		#linea1, #linea2, #linea3 {
- 			background-color: #6600FF;
-        width: 441px;   	
+ 		background-color: #00B6C3;
+        width: 109%;   	
         margin-left: 0px;  
-        border: 1px solid black;
+       
          }
 	
 legend {
@@ -103,6 +113,15 @@ legend {
 	z-index: 1;
 	position: absolute;
 }
+
+#compartirlista{
+	margin:auto;
+	margin-top:50px;
+	margin-left:500px;
+	z-index: 1;
+	position: absolute;
+}
+
 #lista{
 	margin:auto;
 	margin-top:50px;
@@ -120,7 +139,7 @@ legend {
 
 .CSSTableGenerator {
 	margin-top:60px;
-	margin-left:800px;
+	margin-left:950px;
 	
 }
 .CSSTableGenerator table{
@@ -151,11 +170,10 @@ legend {
 	
 }
 .CSSTableGenerator tr:nth-child(odd){ background-color:#ffffff; }
-.CSSTableGenerator tr:nth-child(even)    { background-color:#ff8c21; }.CSSTableGenerator td{
+.CSSTableGenerator tr:nth-child(even)    { background-color:#CFCFCF; }.CSSTableGenerator td{
 	vertical-align:middle;
 	
 	
-	border:1px solid #000000;
 	border-width:0px 1px 1px 0px;
 	text-align:left;
 	padding:16px;
@@ -196,6 +214,36 @@ legend {
 }
 .CSSTableGenerator tr:first-child td:last-child{
 	border-width:0px 0px 1px 1px;
+}
+
+
+
+
+.btn {
+ background: #00C39F;
+  background-image: -webkit-linear-gradient(top, #00C39F, #00C39F);
+  background-image: -moz-linear-gradient(top, #00C39F, #00C39F);
+  background-image: -ms-linear-gradient(top, #00C39F, #00C39F);
+  background-image: -o-linear-gradient(top, #00C39F, #00C39F);
+  background-image: linear-gradient(to bottom, #00C39F, #00C39F);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  border:none;
+}
+
+.btn:hover {
+  background: #00B6C3;
+  background-image: -webkit-linear-gradient(top, #00B6C3, #00B6C3);
+  background-image: -moz-linear-gradient(top, #00B6C3, #00B6C3);
+  background-image: -ms-linear-gradient(top, #00B6C3, #00B6C3);
+  background-image: -o-linear-gradient(top, #00B6C3, #00B6C3);
+  background-image: linear-gradient(to bottom, #00B6C3, #00B6C3);
 }
 
 

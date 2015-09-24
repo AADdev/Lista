@@ -496,3 +496,92 @@
 [22-Sep-2015 11:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/prueba.php:0
 [22-Sep-2015 11:50:33 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/php/prueba.php:19
 [22-Sep-2015 11:51:03 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/php/prueba.php on line 27
+[24-Sep-2015 06:30:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/php/compartir.php on line 14
+[24-Sep-2015 06:30:39 UTC] PHP Stack trace:
+[24-Sep-2015 06:30:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:30:39 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:14
+[24-Sep-2015 06:30:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/php/compartir.php on line 17
+[24-Sep-2015 06:30:39 UTC] PHP Stack trace:
+[24-Sep-2015 06:30:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:30:39 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:17
+[24-Sep-2015 06:30:39 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/php/compartir.php on line 22
+[24-Sep-2015 06:30:39 UTC] PHP Stack trace:
+[24-Sep-2015 06:30:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:30:39 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:22
+[24-Sep-2015 06:30:39 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/php/compartir.php on line 22
+[24-Sep-2015 06:30:39 UTC] PHP Stack trace:
+[24-Sep-2015 06:30:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:30:39 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:22
+[24-Sep-2015 06:30:47 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/php/compartir.php on line 14
+[24-Sep-2015 06:30:47 UTC] PHP Stack trace:
+[24-Sep-2015 06:30:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:30:47 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:14
+[24-Sep-2015 06:30:47 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/php/compartir.php on line 17
+[24-Sep-2015 06:30:47 UTC] PHP Stack trace:
+[24-Sep-2015 06:30:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:30:47 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:17
+[24-Sep-2015 06:30:47 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/php/compartir.php on line 22
+[24-Sep-2015 06:30:47 UTC] PHP Stack trace:
+[24-Sep-2015 06:30:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:30:47 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:22
+[24-Sep-2015 06:30:47 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/php/compartir.php on line 22
+[24-Sep-2015 06:30:47 UTC] PHP Stack trace:
+[24-Sep-2015 06:30:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:30:47 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:22
+[24-Sep-2015 06:30:53 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/php/compartir.php on line 14
+[24-Sep-2015 06:30:53 UTC] PHP Stack trace:
+[24-Sep-2015 06:30:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:30:53 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:14
+[24-Sep-2015 06:30:53 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/php/compartir.php on line 17
+[24-Sep-2015 06:30:53 UTC] PHP Stack trace:
+[24-Sep-2015 06:30:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:30:53 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:17
+[24-Sep-2015 06:30:53 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/php/compartir.php on line 22
+[24-Sep-2015 06:30:53 UTC] PHP Stack trace:
+[24-Sep-2015 06:30:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:30:53 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:22
+[24-Sep-2015 06:30:53 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/php/compartir.php on line 22
+[24-Sep-2015 06:30:53 UTC] PHP Stack trace:
+[24-Sep-2015 06:30:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:30:53 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:22
+[24-Sep-2015 06:31:19 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/php/compartir.php on line 14
+[24-Sep-2015 06:31:19 UTC] PHP Stack trace:
+[24-Sep-2015 06:31:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:31:19 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:14
+[24-Sep-2015 06:31:19 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/php/compartir.php on line 17
+[24-Sep-2015 06:31:19 UTC] PHP Stack trace:
+[24-Sep-2015 06:31:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:31:19 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:17
+[24-Sep-2015 06:31:25 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/php/compartir.php on line 14
+[24-Sep-2015 06:31:25 UTC] PHP Stack trace:
+[24-Sep-2015 06:31:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:31:25 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:14
+[24-Sep-2015 06:31:25 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/php/compartir.php on line 17
+[24-Sep-2015 06:31:25 UTC] PHP Stack trace:
+[24-Sep-2015 06:31:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:31:25 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:17
+[24-Sep-2015 06:31:29 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/php/compartir.php on line 14
+[24-Sep-2015 06:31:29 UTC] PHP Stack trace:
+[24-Sep-2015 06:31:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:31:29 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:14
+[24-Sep-2015 06:31:29 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/php/compartir.php on line 17
+[24-Sep-2015 06:31:29 UTC] PHP Stack trace:
+[24-Sep-2015 06:31:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:31:29 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:17
+[24-Sep-2015 06:31:52 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/php/compartir.php on line 14
+[24-Sep-2015 06:31:52 UTC] PHP Stack trace:
+[24-Sep-2015 06:31:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:31:52 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:14
+[24-Sep-2015 06:31:52 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/php/compartir.php on line 17
+[24-Sep-2015 06:31:52 UTC] PHP Stack trace:
+[24-Sep-2015 06:31:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:31:52 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:17
+[24-Sep-2015 06:32:06 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/php/compartir.php on line 14
+[24-Sep-2015 06:32:06 UTC] PHP Stack trace:
+[24-Sep-2015 06:32:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:32:06 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:14
+[24-Sep-2015 06:32:06 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/php/compartir.php on line 17
+[24-Sep-2015 06:32:06 UTC] PHP Stack trace:
+[24-Sep-2015 06:32:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/compartir.php:0
+[24-Sep-2015 06:32:06 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/php/compartir.php:17
+[24-Sep-2015 06:39:59 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/ubuntu/workspace/php/compartir.php on line 18
