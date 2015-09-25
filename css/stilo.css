@@ -24,6 +24,12 @@
 		margin-left: 400px;
 		color: white;
 	}
+	
+	#logout{
+		float:right;
+		margin-right:8px;
+		margin-top:10px;
+	}
 	#nav {
 		
 		height: 80px;

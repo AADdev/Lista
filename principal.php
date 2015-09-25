@@ -36,6 +36,7 @@ $(document).ready(function() {
 	<body>
 		
 		<div id="banner">
+			<div id="logout"><a href="index.html">LogOut</a></div>	
 			<div id="logo"></div>
 			<div id="bannerletras">
 				<h1></h1></h1>
