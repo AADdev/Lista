@@ -26,7 +26,14 @@ $(document).ready(function() {
     });
 	 $("#linea3").click(function(){
         $(".narchivadas").slideToggle("linear");
+        //document.getElementById("linea3").innerHTML = "<li>NO ARCHIVADAS</li>";
         $(".sarchivadas").slideToggle("linear");
+       
+       
+       
+         
+        
+       
     });
 
 });	
@@ -107,7 +114,7 @@ $(document).ready(function() {
 			    echo "<tr>";
     			echo "<form action='php/borrarl.php' method='post'>";
     			echo "<input type='text' value='$row[0]' name='idl' hidden>";
-			    echo "<th>".$row[1]."</th><th><input type='submit' value='borrar' class='btn'></th>";
+			    echo "<th>".$row[1]."</th><th><input type='submit' value='✘' class='btn'></th>";
 			    echo "</form>";
 			    echo "</tr>";
 			    $result2 = mysql_query("SELECT * FROM tarea WHERE id_lista= '$row[0]' and archivada = 0", $conexion);

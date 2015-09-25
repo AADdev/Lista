@@ -1,5 +1,6 @@
 #banner{
-		background-color:#00C39F ;
+	background-image:url("azul.jpg");
+     background-size:100%;
 		height: 100px;
 		width: 102%;
 		margin-left:-20px;
@@ -29,6 +30,11 @@
 		float:right;
 		margin-right:8px;
 		margin-top:10px;
+		color:white;
+	}
+	a{
+		text-decoration:none;
+		color:white;
 	}
 	#nav {
 		
