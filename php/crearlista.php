@@ -13,10 +13,14 @@ $iduser = $_SESSION['id_usuario'];
  
 mysql_query("INSERT INTO lista (Nombre) VALUES ('$nombrelista')"); 
 
-$idlista =mysql_query("select id_lista from lista where Nombre = '".$nombrelista."'", $conexion );
+$idlista =mysql_query("select id_lista from lista where Nombre = '".$nombrelista."' ORDER BY id_lista DESC", $conexion );
 $idl=mysql_fetch_row($idlista);
 $idl2= $idl[0];
 
+
+
+//$idlista =mysql_query("select id_lista from usuario_lista where id_usuario= '".$iduser."'", $conexion );
+ 
  
  
 mysql_query("INSERT INTO tarea(descripcion,id_lista) VALUES('$tarea1','$idl2')");

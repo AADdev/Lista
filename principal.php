@@ -29,24 +29,25 @@ $(document).ready(function() {
         //document.getElementById("linea3").innerHTML = "<li>NO ARCHIVADAS</li>";
         $(".sarchivadas").slideToggle("linear");
        
-       
-       
-         
         
        
     });
 
 });	
+
 		</script>
 		
 	</head>
-	<body>
+	<body  style="margin:0;">
 		
 		<div id="banner">
-			<div id="logout"><a href="index.html">LogOut</a></div>	
-			<div id="logo"></div>
+			<div id="logout"><a href="index.html">LogOut</a></div>
+			<div class="logo">
+			<img src="imagenes/List.png"/>	
+			</div>
+			<!--<div id="logo"></div>-->
 			<div id="bannerletras">
-				<h1></h1></h1>
+				<h1></h1>
 			</div>
 		</div><!--banner-->
 
@@ -54,14 +55,16 @@ $(document).ready(function() {
 		
 	<ul>	
 		<li id="linea1">CREAR</li>
+		<li id="linea2">COMPARTIR</li>
+		<li  id="linea3">ARCHIVADAS</li>
 	</ul>	
-	<ul>	
+	<!--<ul>	
 		<li id="linea2">COMPARTIR</li>
 			
 	</ul>
 	<ul>	
 		<li  id="linea3">ARCHIVADAS</li>	
-		</ul>
+		</ul>-->
 			
 	</div><!--nav-->
 	<form hidden id="crearlista" method="post" action="php/crearlista.php">	
